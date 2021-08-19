@@ -1,0 +1,10 @@
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.aurora{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #ff0000;
+background: linear-gradient(181deg,#ff0000 0%, #ffe600 80%);
+background: -webkit-linear-gradient(181deg,#ff0000 0%, #ffe600 80%);
+background: -moz-linear-gradient(181deg,#ff0000 0%, #ffe600 80%);
+}

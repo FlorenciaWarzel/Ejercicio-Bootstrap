@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="misestilos.css">
+</head>
+
+<body style="background-color: rgb(255, 205, 185);">
+    <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-dark p-4">
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+          <h5 class="text-white h4">Collapsed content</h5>
+          <span class="text-muted">Toggleable via the navbar brand.</span>
+        </div>
+      </div>
+      <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+    <div class="container-fluid">
+        <div class="container-fluid; border border-5" style="text-align: center; background-color:darksalmon;">
+            <h1><b>Fenómenos astronómicos</b></h1>
+
+        </div>
+        <div class="container-fluid">
+            <div class="clearfix; container-fluid">
+                <img src="Trees.jpg" class="img-thumbnail" alt="...">
+
+                <h3 class="text-decoration-underline">
+                    AURORA BOREAL
+                </h3>
+                <p class="aurora">
+                    Una aurora se produce cuando una eyección de partículas solares cargadas choca con la magnetósfera
+                    de la Tierra. Esta «esfera» que nos rodea obedece al campo magnético generado por el núcleo de la
+                    Tierra, formada por líneas invisibles que parten de los dos polos, como un imán. Además existen
+                    fenómenos muy energéticos, como las fulguraciones o las eyecciones de masa coronal que incrementan
+                    la intensidad del viento solar. Cuando dicha masa solar choca con nuestra esfera protectora, estas
+                    radiaciones solares, también conocidas con el nombre de viento solar, se desplazan a lo largo de
+                    dicha esfera. En el hemisferio que se encuentra en la etapa nocturna de la Tierra en los polos,
+                    donde están las otras líneas de campo magnético, se va almacenando dicha energía hasta que no se
+                    puede almacenar más, y esta energía almacenada se dispara en forma de radiaciones electromagnéticas
+                    sobre la ionosfera terrestre, creadora, principalmente, de dichos efectos visuales.
+                    <br>
+                    <br>
+                    Las auroras tienen formas, estructuras y colores muy diversos que además cambian rápidamente con el
+                    tiempo. Durante una noche, la aurora puede comenzar como un arco aislado muy alargado que se va
+                    extendiendo en el horizonte, generalmente en dirección este-oeste. Cerca de la medianoche el arco
+                    puede comenzar a incrementar su brillo, pueden formarse ondas o rizos a lo largo del arco y también
+                    estructuras verticales que se parecen a rayos de luz muy alargados y delgados
+                    <br>
+                    <br>
+                    Este fenómeno existe también en otros planetas del sistema solar, que tienen comportamientos
+                    similares al planeta Tierra. Tal es el caso de Júpiter y Saturno, que poseen campos magnéticos más
+                    fuertes que la Tierra. Urano y Neptuno también poseen campos magnéticos y ambos poseen amplios
+                    cinturones de radiación. Las auroras han sido observadas en ambos planetas con el telescopio Hubble.
+                </p>
+                <br>
+                <h3 class="text-decoration-underline">Otros Fenómenos</h3>
+            </div>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="fantasy.jpg" class="d-block w-90 h-50" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Futuristic.jpg" class="d-block w-90 h-50" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="nebulosa.jpg" class="d-block w-90 h-50" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually">Siguiente</span>
+                </button>
+
+                  
+                  
+
+            </div>
+
+        </div>
+    </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
